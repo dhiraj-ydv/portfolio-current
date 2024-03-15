@@ -18,9 +18,9 @@ const classes = {
 };
 
 const Header = ({ metadata = {}, noBlog = false }) => {
-  const twitter = get(metadata, 'author', false);
+  const email = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);
-  const email = get(metadata, 'linkedin', false);
+  const linkedin = get(metadata, 'linkedin', false);
 
   return (
     <div className={classes.wrapper}>
@@ -35,13 +35,11 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         </h1>
         <p className={classes.description}>{metadata.description}</p>
         <ul className={classes.list}>
-          {twitter && (
+          {email && (
             <li className={classes.item}>
               <a
-                className={classes.link}
-                href={`https://twitter.com/${twitter}`}
-              >
-                Twitter
+                className={classes.link} href={email}>
+                Email
               </a>
             </li>
           )}
@@ -52,12 +50,13 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </a>
             </li>
           )}
-          {email && (
+          {linkedin && (
             <li className={classes.item}>
-              <a className={classes.link} href={email}>
-                Email
+              <a className={classes.link} href={linkedin}>
+                Linkedin
               </a>
             </li>
+      {/*
           )}
           {!noBlog && (
             <li className={classes.item}>
@@ -66,6 +65,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </Link>
             </li>
           )}
+          */}
         </ul>
       </div>
     </div>
