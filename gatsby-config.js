@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `mailto:dhirajy108@gmail.com`,
     // Content of the About Me section
-    about: `Hi I am Dhiraj Yadav, a 19 year old Web programmer. 1st year BCA student at Manipal University Jaipur. Areas of interest are Computer science, Theoretical physics, Psychology.`,
+    about: `Hi I am Dhiraj Yadav, a 19 year old Web programmer. 1st year BCA student at Manipal University Jaipur.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -41,17 +41,17 @@ module.exports = {
     experience: [
       {
         name: 'Podar GPS Nawalgarh',
-        description: '10th Board, - 2018',
+        description: 'Secondary Education, - 2018',
         link: 'http://www.gpspodar.in/',
       },
       {
-        name: 'Gyanodaya Public School Dadiya',
-        description: '12th Board, 2018 - 2020',
-        link: 'http://www.gyanodayaschooldadiya.com/',
+        name: 'Matrix Sikar',
+        description: 'Senior-Secondary Education, 2018 - 2020',
+        link: 'https://www.matrixedu.in/',
       },
       {
         name: 'Manipal University Jaipur',
-        description: 'BCA, 2020 - 2023(Expected)',
+        description: 'BCA, 2020 - 2023',
         link: 'https://jaipur.manipal.edu/',
       },
     ],
