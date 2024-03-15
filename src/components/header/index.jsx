@@ -35,7 +35,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         </h1>
         <p className={classes.description}>{metadata.description}</p>
         <ul className={classes.list}>
-          {email && (
+          {author && (
             <li className={classes.item}>
               <a
                 className={classes.link} href={email}>
