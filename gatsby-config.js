@@ -9,11 +9,11 @@ module.exports = {
     // Description that goes under your name in main bio
     description: ``,
     // Optional: Twitter account handle
-    author: `dhirajY08?s=09`,
+    author: `mailto:dhirajy108@gmail.com`,
     // Optional: Github account URL
     github: `https://github.com/dhiraj-ydv`,
     // Optional: LinkedIn account URL
-    linkedin: `mailto:dhirajy108@gmail.com`,
+    linkedin: `https://in.linkedin.com/in/dhirajyadav08`,
     // Content of the About Me section
     about: `Hi I am Dhiraj Yadav, a 19 year old Web programmer. 1st year BCA student at Manipal University Jaipur.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
